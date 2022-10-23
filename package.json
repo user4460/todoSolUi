@@ -12,7 +12,7 @@
     "compile": "hardhat compile",
     "test": "hardhat test",
     "console": "hardhat console",
-    "help":"npx hardhat node",
+    "help":"npx hardhat help",
     "deploy": "hardhat run scripts/deploy.js --network localhost",
     "node":"npx hardhat node",
     "migration": "hardhat run scripts/migration.js",
