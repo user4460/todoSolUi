@@ -9,6 +9,10 @@
   ],
   "private": true,
   "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "console": "hardhat console",
+    "migration": "hardhat run scripts/migration.js",
     "subgraph:auth": "yarn workspace @my-app/subgraph auth",
     "subgraph:codegen": "yarn workspace @my-app/subgraph codegen",
     "subgraph:build": "yarn workspace @my-app/subgraph build",
